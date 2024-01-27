@@ -1,0 +1,91 @@
+body{
+    margin-top: 100px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--main-font);
+}
+
+.card{
+    width: 380px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 6px 0px 0px black;
+}
+
+.card:hover{
+    box-shadow: 12px 12px 0px 0px black;
+    cursor: pointer;
+    .card-langs{
+        color: var(--yellow-color);
+    }
+}
+
+.card-img{
+    border-radius: 10px;
+}
+
+.card-content{
+     display: flex;
+     flex-direction: column;
+     gap: 15px 0;
+}
+
+.card-learning{
+    width: fit-content;
+    margin: 20px 0 0 20px;
+    padding: 7px 10px;
+    background-color: var(--yellow-color);
+    border-radius: 6px;
+    font-weight: 800;
+}
+
+.card-date{
+    margin: var(--margin);
+}
+
+.card-langs{
+    margin: var(--margin);
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--black-color);
+}
+
+.card-description{
+    margin: var(--margin);
+    width: fit-content;
+    color: var(--grey-color);
+    font-weight: 600;
+}
+
+.author-info{
+    margin: 20px 0 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.author-img{
+    width: 40px;
+}
+
+.author-name{
+    font-weight: 800;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.attribution{
+    margin-top: 130px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
