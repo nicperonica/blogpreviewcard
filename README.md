@@ -1,4 +1,4 @@
-# Recipe Page - Frontendmentor
+# Blog Preview Card - Frontendmentor
 
 ### PT-BR
 Esse foi o segundo desafio que fiz do Frontendmentor.
